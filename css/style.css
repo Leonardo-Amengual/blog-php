@@ -1,3 +1,51 @@
 * {
   font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  position: relative;
+}
+
+main {
+  margin-bottom: 250px;
+}
+
+#logo {
+  position: absolute;
+  top: 0.5vw;
+  left: 4vw;
+}
+
+#logo img {
+  width: 40px;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161616;
+  padding: 20px;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+#navBar li {
+  margin-right: 0 10px;
+  padding: 5px;
+}
+
+#navBar .navLink {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 14px;
+}
+
+#navBar .navLink:hover {
+  color: #999;
 }
