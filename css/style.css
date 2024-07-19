@@ -16,7 +16,7 @@ main {
 
 #logo {
   position: absolute;
-  top: 0.5vw;
+  top: 1vw;
   left: 4vw;
 }
 
@@ -48,4 +48,19 @@ main {
 
 #navBar .navLink:hover {
   color: #999;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
 }
